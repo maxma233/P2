@@ -7,9 +7,8 @@
 
 ## Project Description
 
-Write and fully demonstrate a Scheme function that implements a duplication operation. Your function should be named super-duper, and have this interface:(super-duper source count)
-The function returns a copy of the list source, with every element duplicated count times. If source is an atom, it is immediately returned, without duplication.
-
+The Store class represents a ‘store’ of information, and contains a HashMap and two methods, addToStore and toString. 
+The Parser class contains a Store object, and implements a method that reads a JSON dataset and recursively searches it for a specific tag.
 
 
 
@@ -19,8 +18,12 @@ Fall Semester, 2023
 
 ## Running the program
 
-    guile + superduper.scm
+    node driver.js <path to JSON data file> <tag to search for>
 
 ## General Reflection 
 
-This is new programming language for me, personally I found this assignment quite challenge, but it's interesting one for sure,  there's still uncertainty when I run the code, for some reason I couldn't pass test which require pass any input values. Overall, it's good experience.
+In this programming project, I learned about Port an existing Java program to Javascript and
+Implement a recursive procedure to traverse JSON. Difficult part is how to read the file from 
+JSON data and the parse function recursively traverse the element in the array. But overall it's 
+great programming project.
+
