@@ -1,6 +1,6 @@
 Name:
 
-Grade: /80
+Grade: 80/80
 
 Rubric for Javascript project:
 
@@ -20,16 +20,20 @@ Documentation:
 
 	-Appropriate and explanitory comments: [5 points]
 
+Thanks for the reflection and I am glad you liked the assignment. 
 
-Code design and style: 
+
+Code design and style: 25
 	- Each java class was ported to a Javascript module written using one of the paradigms discussed in class. [15 points]
 
     - parse() is implemented recursively (can use more than one function) [10 points]
 
 	-Other comments: 
 
+good use of ES6 classes.
 
-Functionality:
+
+Functionality: 40
 	-Program executes without errors or warnings: [10 points]
 
 	-Matches test cases in the assignment: 
